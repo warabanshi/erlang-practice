@@ -1,0 +1,12 @@
+{application, mysqlconn,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mysqlconn_app, []}},
+  {env, []}
+ ]}.
